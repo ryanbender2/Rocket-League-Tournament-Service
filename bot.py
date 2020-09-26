@@ -3,7 +3,7 @@ from discord import channel
 from discord.message import Message
 
 class MyClient(discord.Client):
-    TOKEN = "NzU5NDY1OTc1NjQ4MzU0MzM1.X295zg._UU-sU5wGQgQplIEQTKusSWvJ7k"
+    TOKEN = ""
 
     async def on_ready(self) -> None:
         print(f'Logged on as {self.user}!')
