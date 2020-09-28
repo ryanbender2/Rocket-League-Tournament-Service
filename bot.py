@@ -24,8 +24,7 @@ class MyClient(discord.Client):
 
     def handle_event(self, message: Message) -> None:
         """Method where messages get handled. When any message is
-            sent in a server where the bot is installed, this method
-            will get called.
+            sent in a server, it is verified, then sent here.
 
             example message details:
                 message.author -> ryan.bender2#9842
